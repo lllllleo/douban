@@ -1,0 +1,501 @@
+/**公共样式**/
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font-size:12px;
+	padding-top:30px;
+}
+div{
+	display:block;
+}
+.clear{
+	clear:both;
+}
+a{
+	color:#2e78aa;
+	cursor:pointer;
+}
+a:visited{
+	color:#669;
+	text-decoration:none;
+}
+a:link{
+	color:#37a;
+	text-decoration:none;
+}
+a:hover{
+	color:#fff;
+	background-color:#37a;
+	text-decoration:none;
+}
+.wrapper{
+	//border:1px solid #ff0000;
+	width:950px;
+	margin:0 auto;
+}
+.section .wrapper:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+/**公共样式**/
+/**头部开始**/
+#header{
+	//border:1px solid #ff0000;
+	width:950px;
+	margin:0px auto;
+}
+#header .hdNav{
+	//border:1px solid #000000;
+	float:right;
+	margin-top:6px;
+	display:inline-block;
+	zoom:1;
+}
+#header .hdNav li{
+	list-style:none;
+	float:left;
+	margin:0 0 0 17px;
+}
+#header .hdNav li a{
+	margin:0;
+}
+#header .hdNav li a:hover{
+	background-color:transparent;
+}
+#header .hdNav li a img{
+	width:40px;
+	height:20px;
+	margin:0;
+}
+#header h1{
+	display:inline-block;
+	width:160px;
+	height:34px;
+	background:url(img/logo_db.png) no-repeat;
+	overflow:hidden;
+	vertical-align:middle;
+}
+#header h1 a{
+	display:block;
+	height:34px;
+}#header h1 a:hover{
+	background-color:transparent;
+}
+#header .hdSrh{
+	border:1px solid #c3c3c3;
+	width:270px;
+	height:30px;
+	display:inline-block;
+	vertical-align:middle;
+	margin-left:15px;
+	position:relative;
+}
+#header .hdSrh input{
+	border:none;
+	outline:none;
+	width:240px;
+	height:20px;
+	font-size:13px;
+	vertical-align:middle;
+	padding:5px;
+}
+#header .hdSrh .search{
+	width:30px;
+	height:30px;
+	overflow:hidden;
+	background:url(img/bn_srh_1.png) 50% 50% no-repeat;
+	position:absolute;
+	right:0px;
+	top:0px;
+	zoom:1;
+}
+#header .hdSrh .search input{
+	border:none;
+	width:30px;
+	height:30px;
+	background:url(img/bn_srh_1) no-repeat;
+	cursor:pointer;
+}
+/**头部结束**/
+/**登陆开始**/
+#login{
+	//border:1px solid #ff0000;
+	background-position:top right;
+	background-image:url(img/douban_bg.png);
+	background-repeat:no-repeat;
+	background-color:#f1faf1;
+	margin:25px 0px 25px 0px;
+}
+#login .wrapper{
+	//border:1px solid #ff0000;
+	width:950px;
+	margin:0 auto;
+	background:url(img/doubanapp4.png) no-repeat left top;
+	//position:relative;
+}
+#login .wrapper .reg{
+	//border:1px solid #ff0000;
+	position:relative;
+	float:right;
+	width:270px;
+	margin-top:30px;
+	margin-bottom:25px;
+}
+#login .wrapper .reg form fieldset{
+	border:none;
+}
+#login .wrapper .reg form fieldset legend{
+	display:none;
+}
+#login .wrapper .reg input{
+	width:252px;
+	height:30px;
+	line-height:30px;
+	border:1px solid #DBE5DB;
+	border-radius:2px;
+	outline:none;
+	margin-bottom:5px;
+}
+#login .wrapper .reg .btn{
+	width:120px;
+	cursor:pointer;
+	background:#30A080;
+	border-color:#30A080;
+	color:#fff;
+	font-size:12px;
+}
+#login .wrapper .reg .regbtn{
+	width:120px;
+	height:29px;
+	line-height:30px;
+	text-align:center;
+	border:1px solid #30A080;
+	display:inline-block;
+	border-radius:2px;
+	color:#30A080;
+	margin-left:4px;
+	font-size:12px;
+}
+#login .wrapper .reg .regbtn:hover{
+	color:#2e78aa;
+	background-color:transparent;
+}
+#login .wrapper .reg form fieldset div label{
+	font-family:Tahoma;
+	cursor:default;
+	font-size:12px;
+	color:#666;
+	display:inline-block;
+	margin-top:8px;
+	vertical-align:middle;
+}
+#login .wrapper .reg form fieldset div label input{
+	width:12px;
+	height:12px;
+}
+#login .wrapper .reg .wechat a{
+	display:inline-block;
+	width:14px;
+	height:12px;
+	float:right;
+	margin-top:8px;
+	margin-right:22px;
+	background:url(img/weibo.png) no-repeat;
+}
+#login .wrapper .reg .weibo a{
+	display:inline-block;
+	width:14px;
+	height:12px;
+	float:right;
+	margin-top:8px;
+	margin-right:6px;
+	background:url(img/wechat.png) no-repeat;
+}
+#login .app{
+	//border:1px solid #ff0000;
+	margin:30px 0px auto 430px;
+	display:inline-block;
+}
+#login .app .title{
+	font-size:25px;
+	color:#111;
+	font-weight:bold;
+	line-height:24px;
+}
+#login .app .slogan{
+	color:#111;
+	margin:10px auto 5px auto;
+}
+#login .app .slogan span{
+	font-size:12px;
+}
+#login .app .download{
+	display:inline-block;
+	width:120px;
+	height:33px;
+	line-height:30px;
+	background:#02b41f;
+	color:#fff;
+	text-align:center;
+	vertical-align:middle;
+	border-radius:2px;
+	margin:20px auto 15px auto;
+}
+#login .app .app_qr{
+	display:inline-block;
+	position:relative;
+}
+#login .app .app_qr .lnk{
+	display:inline-block;
+	border:1px solid #48aa0d;
+	border-radius:2px;
+	vertical-align:middle;
+}
+#login .app .app_qr .lnk:hover{
+	background-color:transparent;
+}
+/**登陆结束**/
+.section{
+	//border:1px solid #ff0000;
+	padding:10px 0px;
+	margin-bottom:30px;
+	min-height:200px;
+}
+.section:nth-child(2n){
+	background-color:#f7f7f7;
+}
+.section .banner a:hover{
+	background-color:transparent;
+}
+h2{
+	font:15px Arial;
+	color:#072;
+	line-height:150%;
+	margin:0 0 12px 0;
+}
+.p1{
+	font:12px Arial;
+	color:#666666;
+}
+ul,li,ol{
+	list-style:none;
+}
+/**SNS**/
+.section .side{
+	//border:1px solid #ff0000;
+	position:relative;
+	float:right;
+	width:265px;
+}
+.section .side .banlnk:hover{
+	background-color:transparent;
+}
+.section .side ul{
+	margin-top:-4px;
+}
+.section .side ul li{
+	margin-top:10px;
+	color:#999;
+}
+.section .side ul li .title{
+	color:#2e78aa;
+	margin-bottom:4px;
+}
+.section .main{
+	//border:1px solid #ff0000;
+	position:relative;
+	overflow:hidden;
+	margin-bottom:30px;
+}
+.section .main .mod{
+	//border:1px solid #ff0000;
+	margin-bottom:30px;
+	width:auto;
+	display:inline-block;
+}
+.section .main .mod .albums{
+	//border:1px solid #ff0000;
+	width:350px;
+	color:#999;
+	float:left;
+	margin-right:30px;
+}
+.section .main .mod .albums ul{
+	//padding:10px 0px 5px 0;
+}
+.section .main .mod .albums ul li{
+	display:inline-block;
+	vertical-align:middle;
+	margin:5px 0px 5px 0px;
+	width:170px;
+}
+.section .main .mod .albums ul .pic{
+	display:inline-block;
+	width:170px;
+	max-height:170px;
+	vertical-align:middle;
+	overflow:hidden;
+}
+.section .main .mod .notes{
+	overflow:hidden;
+	color:#666;
+}
+.section .main .mod .notes li:first-child{
+	margin-top:0px;
+}
+.section .main .mod .notes li{
+	margin-top:20px;
+}
+.section .main .mod .notes .author{
+	color:#999;
+	margin:2px auto 5px auto;
+}
+/**MOVIE**/
+.section .mod{
+	margin-bottom:30px;
+}
+.section .sideNav{
+	//border:1px solid #ff0000;
+	width:100px;
+	float:left;
+	margin-right:30px;
+}
+.section .sideNav h2{
+	font-size:24px;
+}
+.section .sideNav ul li{
+	margin:5px auto 15px auto;
+	font:14px Arial;
+}
+.section .sideNav ul li img{
+	vertical-align:top;
+}
+.section .side .list li{
+	display:inline-block;
+	letter-spacing:normal;
+	word-spacing:normal;
+	margin:5px 18px 5px 0px;
+}
+.section .side .chart ol{
+	display:inline-block;
+}
+.section .side .chart ol li{
+	list-style-type:decimal;
+	list-style-position:inside;
+	margin-bottom:10px;
+	padding-bottom:8px;
+	border-bottom:1px solid #eaeaea;
+	width:220px;
+}
+.section .main .movieList ul li{
+	//border:1px solid #ff0000;
+	display:inline-block;
+	width:22%;
+	text-align:center;
+}
+.section .main .movieList .pic{
+	margin-bottom:10px;
+	height:145px;
+	overflow:hidden;
+	letter-spacing:normal;
+	word-spacing:normal;
+}
+.section .main .movieList .title{
+	font-size:13px;
+	margin-bottom:8px;
+}
+.section .main .movieList .title a{
+	color:#333;
+}
+.section .main .movieList .title a:hover{
+	color:#fff;
+}
+.section .main .movieList .rating{
+	margin-bottom:4px;
+}
+.section .main .movieList .buy .ticket{
+	background:#1c8bd0;
+	color:#fff;
+	border-radius:2px;
+	width:70px;
+	height:25px;
+	line-height:25px;
+	display:inline-block;
+	vertical-align:middle;
+	margin-bottom:30px;
+}
+.section .main .movieList .buy .ticket:hover{
+	background:#27a;
+}
+.section .side .label{
+	//border:1px solid #ff0000;
+	margin-bottom:10px;
+}
+.section .side .label ul li:first-child{
+	width:100%;
+	color:#333;
+	font-size:13px;
+	//margin-bottom:2px;
+}
+.section .side .label ul li:first-child a{
+	color:#333;
+}
+.section .side .label ul li:first-child a:hover{
+	color:#fff;
+}
+.section .side .label ul li{
+	display:inline-block;
+	margin-right:8px;
+}
+.section .main .groupList ul{
+	margin-left:-30px;
+	margin-top:-30px;
+}
+.section .main .groupList ul li{
+	//border:1px solid #ff0000;
+	width:248px;
+	text-align:left;
+	overflow:hidden;
+	color:#999;
+	margin-left:30px;
+	margin-top:30px;
+	float:left;
+}
+.section .main .groupList .pic{
+	float:left;
+	margin-right:15px;
+	overflow:hidden;
+}
+.section .main .groupList .info .title{
+	margin-bottom:10px;
+	margin-top:3px;
+}
+#footer{
+	//border:1px solid #ff0000;
+	padding:10px 0px;
+	margin-bottom:30px;
+	background:transparent;
+}
+#footer .ft{
+	border-top:1px dashed #dcdcdc;
+	color:#999;
+	padding:14px 0px;
+	overflow:hidden;
+}
+#footer .ft .bq{
+	display:inline-block;
+	float:left;
+	vertical-align:middle;
+	line-height:1.62;
+}
+#footer .ft .bqright{
+	//border:1px solid #ff0000;
+	display:inline-block;
+	float:right;
+}
+.bdpic:hover{
+	background:transparent;
+}
